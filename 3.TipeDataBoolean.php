@@ -1,4 +1,5 @@
 <?php
+// * Benar (true) dan Salah(false)
 
 echo "Benar : ";
 var_dump(true);
