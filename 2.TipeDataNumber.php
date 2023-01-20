@@ -1,4 +1,12 @@
 <?php
+
+// Todo Tipe Data Number
+// * Di PHP terdapat 2 jenis tipe data number
+// * (int) Bilangan bulat decimal (base 10), hexadecimal (base 16), octa (base 8), binary (base 2) dan
+// * (float) Bilangan pecahan
+// * Di PHP kita bisa menambahkan _ (garis bawah) di angka, ini hanya untuk agar mudah dibaca, saat dijalankan, _ (garis bawah) tersebut akan di ignore
+// * Untuk angka negatif, kita bisa menggunakan tanda - (minus) di depan angka
+
 // Todo Fungsi var_dumb digunakan untuk mengetahui tipe data dari suatu program yang sudah kita buat
 
 
