@@ -4,7 +4,7 @@
 // * Variable adalah tempat untuk menyimpan data sehingga bisa kita gunakan lagi di kode program selanjutnya
 // * Di PHP variable bisa menampung berbagai jenis tipe data dan bisa berubah-ubah tipe data
 // * Untuk membuat variable kita bisa menggunakan tanda $ (dolar) diikuti dengan nama variable nya
-// * Penamaan variable tidak boleh mengandung spasi
+// * Penamaan variable tidak boleh mengandung spasi.
 
 // Todo Pembuatan string cara pertama
 $nama = "Thomas Alberto";
