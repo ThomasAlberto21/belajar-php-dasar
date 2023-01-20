@@ -1,5 +1,4 @@
-<!-- Membuat program hello world --> 
-
 <?php
+// * Membuat program hello world
 
 echo "Hello World";
