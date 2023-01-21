@@ -31,28 +31,29 @@ var_dump($b); // (10)
 
 
 // Todo Jika ingin menambahkan nilai pada $c dan menyimpannya pada $d menggunakan pre increment
-$c = 10;
-$d = ++$c; // * Pre Increment
-var_dump($c); // (11)
+$a = 10;
+$b = ++$a; // * Pre Increment
+var_dump($b); // (11)
+
 
 
 // Todo Decrement
 $post_decrement = 10; // * Post Decrement
-$post_decrement--; 
+$post_decrement--;
 var_dump($post_decrement); // (9)
 
 $pre_decrement = 10; // * Pre Decrement
-$pre_decrement--; 
+--$pre_decrement;
 var_dump($pre_decrement); // (9)
 
 
-// Todo Jika ingin menambahkan nilai pada $e dan menyimpannya pada $f menggunakan post decrement
-$e = 10;
-$f = $e--; // * Post decrement
-var_dump($f); // (10)
+// Todo Jika ingin mengurangkan nilai pada $c dan menyimpannya pada $d menggunakan post decrement
+$c = 10;
+$d = $c--; // * Post decrement
+var_dump($d); // (10)
 
 
-// Todo Jika ingin menambahkan nilai pada $g dan menyimpannya pada $h menggunakan post decrement
-$g = 10;
-$h = --$g; // * Post decrement
-var_dump($h); // (9)
+// Todo Jika ingin mengurangkan nilai pada $c dan menyimpannya pada $d menggunakan pre decrement
+$c = 10;
+$d = --$c; // * Post decrement
+var_dump($d); // (9)
