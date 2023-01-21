@@ -13,17 +13,46 @@
 
 
 // Todo Increment
+$post_increment = 10; // * Post Increment
+$post_increment++;
+var_dump($post_increment); // (11)
+
+
+$pre_increment = 10; // * Pre Increment
+++$pre_increment;
+var_dump($pre_increment); // (11)
+
+
+// Todo Jika ingin menambahkan nilai pada $a dan menyimpannya pada $b menggunakan post increment
 $a = 10;
-
-$a++; // * Post Increment
-++$a; // * Pre Increment
-var_dump($a);
+$b = $a++; // * Post Increment
+var_dump($b); // (10)
 
 
-// Todo Jika ingin menambahkan nilai pada $b dan menyimpannya pada $c
-$b = 11;
 
-$c = $b++; // * Post Increment
-$c = ++$b; // * Pre increment
+// Todo Jika ingin menambahkan nilai pada $c dan menyimpannya pada $d menggunakan pre increment
+$c = 10;
+$d = ++$c; // * Pre Increment
+var_dump($c); // (11)
 
-var_dump($c);
+
+// Todo Decrement
+$post_decrement = 10; // * Post Decrement
+$post_decrement--; 
+var_dump($post_decrement); // (9)
+
+$pre_decrement = 10; // * Pre Decrement
+$pre_decrement--; 
+var_dump($pre_decrement); // (9)
+
+
+// Todo Jika ingin menambahkan nilai pada $e dan menyimpannya pada $f menggunakan post decrement
+$e = 10;
+$f = $e--; // * Post decrement
+var_dump($f); // (10)
+
+
+// Todo Jika ingin menambahkan nilai pada $g dan menyimpannya pada $h menggunakan post decrement
+$g = 10;
+$h = --$g; // * Post decrement
+var_dump($h); // (9)
