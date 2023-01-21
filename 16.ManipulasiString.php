@@ -1,6 +1,7 @@
 <?php
 
 // Todo Manipulasi String
+// Todo .PHP_EOL sama dengan \n(enter)
 
 // Todo 1. Dot Operator
 // * Dot (titik) operator adalah operator yang bisa kita gunakan untuk menambahkan string dengan data lain (bisa string atau tipe data lainnya)
