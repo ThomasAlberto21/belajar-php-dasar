@@ -15,9 +15,17 @@ for($i = 0; $i < count($murid_1); $i++){
 
 
 // Todo Cara cepat menggunakan for each
+
+// * Mengambil index nya
 foreach($murid_1 as $index => $murid){
-    echo "Data ke $index : $murid" .PHP_EOL;
+    echo "Data $index : $murid" .PHP_EOL;
+} 
+
+// * Tidak mengambil index nya
+foreach($murid_1 as $murid){
+    echo "Data $murid" .PHP_EOL;
 }
+
 
 
 // Todo jika mengambil banyak data
