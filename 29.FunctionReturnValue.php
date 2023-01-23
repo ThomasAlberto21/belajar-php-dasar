@@ -21,8 +21,8 @@ function sum(int $first_number, int $last_number): int // ! Return Type Declarat
 }
 
 
-$nilai = sum(10, 10);
-var_dump($nilai);
+$total = sum(10, 10);
+var_dump($total);
 
 
 // Todo Contoh komplek
