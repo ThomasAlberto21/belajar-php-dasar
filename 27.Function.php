@@ -25,6 +25,19 @@ sayHello();
 // * Namun perlu diingat, jika kode function yang belum dieksekusi oleh PHP, maka function tersebut tidak akan bisa digunakan
 
 
+// Todo function di dalam if
+$data = true;
+if ($data) {
+    function sayData()
+    {
+        echo "Hello Data" . PHP_EOL;
+    }
+}
+
+sayData();
+
+
+
 
 // Todo function komplek
 $buat = false;
