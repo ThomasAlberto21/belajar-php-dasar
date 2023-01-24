@@ -42,6 +42,7 @@ echo "\n";
 // * Selain mengubah menjadi NULL, di PHP juga kita bisa menghapus sebuah variable, caranya dengan menggunakan function unset($variable)
 // * Namun hati-hati, ketika kita hapus variable, kita tidak bisa lagi mengakses variable tersebut, bahkan function is_null($variable) pun akan menjadi error jika mengakses variable tersebut.
 // * Agar lebih aman, kita bisa menggunakan function isset($variable) untuk mengeccek apakah sebuah variable ada dan nilainya tidak NULL
+// * Fungsi isset () digunakan untuk memeriksa apakah suatu variabel sudah diatur atau belum. 
 
 $name = "Thomas";
 unset($name);
