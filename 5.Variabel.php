@@ -6,7 +6,7 @@
 // * Untuk membuat variable kita bisa menggunakan tanda $ (dolar) diikuti dengan nama variable nya
 // * Penamaan variable tidak boleh mengandung spasi.
 
-// Todo Pembuatan string cara pertama
+// Todo Pembuatan variabel cara pertama
 $nama = "Thomas Alberto";
 $kelas = "12.1B.30";
 $nim = 12221355;
