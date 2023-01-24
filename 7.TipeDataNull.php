@@ -7,7 +7,6 @@
 
 
 $nama = "Thomas Alberto";
-$nama = null;
 $nim = null;
 
 
